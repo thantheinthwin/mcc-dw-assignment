@@ -1,0 +1,19 @@
+.carousel-item{
+    max-height: 20%;
+}
+
+.slideshow{
+    transform: translateY(-20%);
+}
+
+@media screen and (min-width: 992px) {
+    .carousel-item{
+        max-height: 50%;
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    #slideshow-item{
+        transform: translateY(-50%);
+    }
+}

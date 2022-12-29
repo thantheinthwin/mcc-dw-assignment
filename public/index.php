@@ -52,15 +52,15 @@
             <div>
                 <!-- slideshow -->
                 <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner h-50">
+                    <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="../src/images/slideshow 1.jpg" class="d-block w-100 object-fit-cover image-fluid" alt="...">
+                        <img src="../src/images/slideshow 1.jpg" class="d-block w-100 object-fit-cover image-fluid slideshow" alt="...">
                         </div>
-                        <div class="carousel-item h-50">
-                        <img src="../src/images/slideshow 2.jpg" class="d-block w-100 object-fit-cover image-fluid translate-middle-y" alt="...">
+                        <div class="carousel-item">
+                        <img src="../src/images/slideshow 2.jpg" class="d-block w-100 object-fit-cover image-fluid slideshow" alt="...">
                         </div>
-                        <div class="carousel-item h-50">
-                        <img src="../src/images/slideshow 3.jpg" class="d-block w-100 object-fit-cover image-fluid translate-middle-y" alt="...">
+                        <div class="carousel-item">
+                        <img src="../src/images/slideshow 3.jpg" class="d-block w-100 object-fit-cover image-fluid slideshow" id="slideshow-item" alt="...">
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
