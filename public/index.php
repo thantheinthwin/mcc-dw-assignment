@@ -15,8 +15,8 @@
             <div class="container-fluid">
                 <a class="navbar-brand">
                     <img src="../src/logo and icons/logo.png" alt="GWSC" style="width: 3rem;">
-                    <span class="h3 d-lg-none align-middle">GWSC</span>
-                    <span class="h3 d-none d-lg-inline mx-2 align-middle">Global Wild Swimming and Camping</span>
+                    <span class="h3 d-xl-none align-middle">GWSC</span>
+                    <span class="h3 d-none d-xl-inline mx-2 align-middle">Global Wild Swimming and Camping</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -47,32 +47,112 @@
                 </div>
             </div>
         </nav>
-        <!-- context -->
+        <!-- body -->
         <div class="w-100" style="background-color: #F0EBCE;">
-            <div>
+            <div class="col">
+                <div class="row-4">
                 <!-- slideshow -->
-                <div id="slideshow" class="carousel slide" data-bs-ride="carousel">
+                <div id="slideshow" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img src="../src/images/slideshow 1.jpg" class="d-block w-100 object-fit-cover image-fluid slideshow" alt="...">
+                            <div class="position-absolute w-100 z-1 h-100 container-fluid">
+                                <div class="text-white position-absolute top-50 start-50 translate-middle" id="carousel-cover">
+                                    <p class="display-6">Nature benefit you</p>
+                                    <h1 class="display-1">Experience everything nature has to offer</h1>
+                                </div>
+                            </div>
+                            <img src="../src/images/slideshow 1.jpg" class="d-block w-100 object-fit-cover image-fluid slideshow" alt="...">
                         </div>
                         <div class="carousel-item">
-                        <img src="../src/images/slideshow 2.jpg" class="d-block w-100 object-fit-cover image-fluid slideshow" alt="...">
+                            <div class="position-absolute w-100 z-1 h-100 container-fluid">
+                                <div class="text-white position-absolute top-50 start-50 translate-middle" id="carousel-cover">
+                                    <p class="display-6">Choose a healthy environment</p>
+                                    <h1 class="display-1">Take only memory, leave only footprints</h1>
+                                </div>
+                            </div>
+                            <img src="../src/images/slideshow 2.jpg" class="d-block w-100 object-fit-cover image-fluid slideshow" alt="...">
                         </div>
                         <div class="carousel-item">
-                        <img src="../src/images/slideshow 3.jpg" class="d-block w-100 object-fit-cover image-fluid slideshow" id="slideshow-item" alt="...">
+                            <div class="position-absolute w-100 z-1 h-100 container-fluid">
+                                <div class="text-white position-absolute top-50 start-50 translate-middle" id="carousel-cover">
+                                    <p class="display-6">Live your life <br> in the most peaceful way</p>
+                                    <h1 class="display-1">Can you hear the outdoor calling for you</h1>
+                                </div>
+                            </div>
+                            <img src="../src/images/slideshow 3.jpg" class="d-block w-100 object-fit-cover image-fluid slideshow" id="slideshow-item" alt="...">
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
-                        </button>
+                        </button> -->
                     </div>
                 </div>
+
+                <!-- context -->
+                <div class="container position-relative w-100">
+                    <!-- What we have -->
+                    <div class="row justify-content-center">
+                        <div class="col-10 text-center bg-white">
+                            <div class="row mb-2">
+                                <div class="col display-5">
+                                    WITH GWSC
+                                </div>
+                            </div>
+
+                            <!-- Icon -->
+                            <div class="row">
+                                <div class="col-3 p-2">
+                                    <div class="row justify-content-center">
+                                        <div class="col-6">
+                                            <img src="../src/logo and icons/tent.svg" class="img-fluid">
+                                        </div>
+                                        <div>
+                                            Camping
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 p-2">
+                                    <div class="row justify-content-center">
+                                        <div class="col-6">
+                                            <img src="../src/logo and icons/campfire.svg" class="img-fluid">
+                                        </div>
+                                        <div>
+                                            Food and rations
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 p-2">
+                                    <div class="row justify-content-center">
+                                        <div class="col-6">
+                                            <img src="../src/logo and icons/lake.svg" class="img-fluid">
+                                        </div>
+                                        <div>
+                                            Swimming
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 p-2">
+                                    <div class="row justify-content-center">
+                                        <div class="col-6">
+                                            <img src="../src/logo and icons/tent.svg" class="img-fluid">
+                                        </div>
+                                        <div>
+                                            Camping
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Info -->
+                </div>
+                </div>
             </div>
+            
         </div>
         <!-- Footer -->
         <footer class="">
