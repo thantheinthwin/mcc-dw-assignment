@@ -7,6 +7,30 @@
     padding: 0.5rem;
 }
 
+#roadmap{
+    font-size: 4rem;
+}
+
+.mt-10{
+    margin-top: 10rem;
+}
+
+.mt-info{
+    margin-top: 6em;
+}
+
+.mt-info-heading{
+    margin-top: 6rem;
+}
+
+#svgs:hover{
+    transform: scale(1.1);
+}
+
+#svgs{
+    transition: transform .5s;
+}
+
 @media screen and (min-width: 768px) {
     .display-1{
         font-size: 2.5rem;
@@ -18,7 +42,7 @@
 
     .slideshow{
         transform: translateY(-20%);
-    }
+    }    
 }
 
 @media screen and (min-width: 992px) {
@@ -33,10 +57,26 @@
     .display-6{
         font-size: 2rem;
     }
+
+    .mt-10{
+        margin-top: 8rem;
+    }
+
+    .mt-info{
+        margin-top: 12rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
     #slideshow-item{
         transform: translateY(-50%);
+    }
+
+    .mt-10{
+        margin-top: 10rem;
+    }
+
+    .display-6{
+        font-size: 3rem;
     }
 }

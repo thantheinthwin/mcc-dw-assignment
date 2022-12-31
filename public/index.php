@@ -4,6 +4,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+        <script src="../public/scripts/fade-in-on-mouseScroll.js"></script>
         <link rel="icon" type="image/x-icon" href="../src/logo and icons/icon.ico">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
@@ -11,7 +12,7 @@
     </head>
     <body>
         <!-- Nav bar -->
-        <nav class="navbar navbar-expand-lg bg-light sticky-top w-100">
+        <nav class="navbar navbar-expand-lg bg-light sticky-top w-100 shadow">
             <div class="container-fluid">
                 <a class="navbar-brand">
                     <img src="../src/logo and icons/logo.png" alt="GWSC" style="width: 3rem;">
@@ -48,7 +49,7 @@
             </div>
         </nav>
         <!-- body -->
-        <div class="w-100" style="background-color: #F0EBCE;">
+        <div class="w-100" style="">
             <div class="col">
                 <div class="row-4">
                 <!-- slideshow -->
@@ -95,53 +96,54 @@
                 <!-- context -->
                 <div class="container position-relative w-100">
                     <!-- What we have -->
-                    <div class="row justify-content-center">
-                        <div class="col-10 text-center bg-white">
+                    <div class="row justify-content-center position-absolute z-1 top-0 position-middle">
+                        <div class="col-10 text-center bg-white shadow">
                             <div class="row mb-2">
-                                <div class="col display-5">
-                                    WITH GWSC
+                                <div class="col mt-3">
+                                    <h1 class="display-5">With GWSC</h1>
+                                    <h1 class="lead fs-3">You can</h1>
                                 </div>
                             </div>
 
                             <!-- Icon -->
-                            <div class="row">
-                                <div class="col-3 p-2">
+                            <div class="row p-4">
+                                <div class="col">
                                     <div class="row justify-content-center">
-                                        <div class="col-6">
+                                        <div class="col-6 mb-2" id="svgs">
                                             <img src="../src/logo and icons/tent.svg" class="img-fluid">
                                         </div>
-                                        <div>
+                                        <div class="lead">
                                             Camping
                                         </div>
+                                    </div> 
+                                </div>
+                                <div class="col">
+                                    <div class="row justify-content-center">
+                                        <div class="col-6 mb-2" id="svgs">
+                                            <img src="../src/logo and icons/fishing.svg" class="img-fluid">
+                                        </div>
+                                        <div class="lead">
+                                            Fishing
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-3 p-2">
+                                <div class="col">
                                     <div class="row justify-content-center">
-                                        <div class="col-6">
-                                            <img src="../src/logo and icons/campfire.svg" class="img-fluid">
-                                        </div>
-                                        <div>
-                                            Food and rations
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-3 p-2">
-                                    <div class="row justify-content-center">
-                                        <div class="col-6">
+                                        <div class="col-6 mb-2" id="svgs">
                                             <img src="../src/logo and icons/lake.svg" class="img-fluid">
                                         </div>
-                                        <div>
+                                        <div class="lead">
                                             Swimming
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-3 p-2">
+                                <div class="col">
                                     <div class="row justify-content-center">
-                                        <div class="col-6">
-                                            <img src="../src/logo and icons/tent.svg" class="img-fluid">
+                                        <div class="col-6 mb-2" id="svgs">
+                                            <img src="../src/logo and icons/forest.svg" class="img-fluid">
                                         </div>
-                                        <div>
-                                            Camping
+                                        <div class="lead">
+                                            Explore
                                         </div>
                                     </div>
                                 </div>
@@ -149,6 +151,82 @@
                         </div>
                     </div>
                     <!-- Info -->
+                    <div class="row">
+                        <div class="mt-10">
+                            <div class="container">
+                                <div class="row text-center justify-content-center">
+                                    <!-- heading -->
+                                    <div class="position-relative mt-info">
+                                        <div class="col position-absolute top-50 start-50 translate-middle">
+                                            <h1 id="roadmap">About</h1>
+                                        </div>  
+                                        <h2 class="mt-info-heading">Welcome to <br> Global Wild Camping and Swimming</h4>
+                                    </div>
+
+                                    <!-- paragraph -->
+                                    <div class="row mt-3">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+                                        </p>
+                                    </div>
+
+                                    <div class="row justify-content-center mt-5">
+                                        <div class="col-10 mt-3 shadow p-4">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h3 class="display-6">For accommodations</h3>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg col-4 border-end mt-3">
+                                                    <div class="row justify-content-center" id="svgs">
+                                                        <div class="col-8">
+                                                            <img src="../src/logo and icons/trailer.svg" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                    <span class="text-uppercase">30 camper sites</span>
+                                                </div>
+                                                <div class="col-lg col-4 border-end mt-3">
+                                                    <div class="row justify-content-center" id="svgs">
+                                                        <div class="col-8">
+                                                            <img src="../src/logo and icons/rv.svg" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                    <span class="text-uppercase">25 caravan sites*</span>
+                                                </div>
+                                                <div class="col-lg col-4 lg-border-end mt-3">
+                                                    <div class="row justify-content-center" id="svgs">
+                                                        <div class="col-8">
+                                                            <img src="../src/logo and icons/tent (2).svg" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                    <span class="text-uppercase">50 tent sites</span>
+                                                </div>
+                                                <div class="col-lg col-4 border-end mt-3">
+                                                    <div class="row justify-content-center" id="svgs">
+                                                        <div class="col-8">
+                                                            <img src="../src/logo and icons/glamp.svg" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                    <span class="text-uppercase">10 glamp sites*</span>
+                                                </div>
+                                                <div class="col-lg col-4 mt-3">
+                                                    <div class="row justify-content-center" id="svgs">
+                                                        <div class="col-8">
+                                                            <img src="../src/logo and icons/cabin.svg" class="img-fluid">
+                                                        </div>
+                                                    </div>
+                                                    <span class="text-uppercase">10 cabin sites</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 </div>
             </div>
