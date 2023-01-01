@@ -1,5 +1,23 @@
+p.text{
+    color: #7F8487;
+}
+
 .carousel-item{
     max-height: 20%;
+}
+
+.card-img-wrapper{
+    overflow: hidden;
+}
+
+.card-img-top{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.card-img-top:hover{
+    transform: scale(1.2);
+    transition: 1s ease;
 }
 
 #carousel-cover{
@@ -7,8 +25,14 @@
     padding: 0.5rem;
 }
 
-#roadmap{
+.roadmaps{
     font-size: 4rem;
+    opacity: 0;
+    transition: 1000ms ease-in;
+}
+
+.roadmaps.fade-in{
+    opacity: 0.25;
 }
 
 .mt-10{
@@ -21,6 +45,10 @@
 
 .mt-info-heading{
     margin-top: 6rem;
+}
+
+.link-light:hover{
+    opacity: 0.6;
 }
 
 #svgs:hover{
