@@ -26,6 +26,7 @@ p.text{
 }
 
 .roadmaps{
+    font-family: 'Bebas Neue', cursive;
     font-size: 4rem;
     opacity: 0;
     transition: 1000ms ease-in;
