@@ -101,8 +101,12 @@
                             <div class="col-10 text-center bg-white shadow">
                                 <div class="row mb-2">
                                     <div class="col mt-3">
-                                        <h1 class="display-5">With GWSC</h1>
-                                        <h1 class="lead fs-3">You can</h1>
+                                        <h1 class="">With GWSC</h1>
+                                        <div class="row justify-content-center">
+                                            <div class="col-8">
+                                                <p class="lead fs-4 text">Escape from modern life and let's jump right into the most simple and peaceful way of living. Relieve your stress.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -273,10 +277,10 @@
 
                                         <!-- roadmap -->
                                         <div class="row mt-10">
-                                            <div class="col-6 p-5">
+                                            <div class="col-12 col-lg-6 p-5">
                                                 <div class="row align-middle justify-content-center">
                                                     <div class="position-relative mt-5">
-                                                        <div class="col position-absolute start-50 bottom-0 mb-5 pb-2 pb-lg-2 pb-xxl-0 mb-lg-4 mb-xxl-0 top-lg-50 translate-middle">
+                                                        <div class="col position-absolute start-50 bottom-0 mb-lg-4 pb-lg-2 mb-xxl-0 pb-xxl-0 translate-middle">
                                                             <h1 class="roadmaps text-uppercase">Activity</h1>
                                                         </div>  
                                                         <h2 class="mt-info-heading">Change the way you travel, <br>be closer to nature.</h4>
@@ -292,7 +296,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-6 p-3">
+                                            <div class="col-12 col-lg-6 p-3">
                                                 <div class="row">
                                                     <div class="col-6">
                                                         <div class="row mb-3">

@@ -26,7 +26,6 @@ p.text{
 }
 
 .roadmaps{
-    font-family: 'Bebas Neue', cursive;
     font-size: 4rem;
     opacity: 0;
     transition: 1000ms ease-in;
@@ -37,11 +36,11 @@ p.text{
 }
 
 .mt-10{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 .mt-info{
-    margin-top: 6em;
+    margin-top: 10em;
 }
 
 .mt-info-heading{
