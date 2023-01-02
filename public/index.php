@@ -4,7 +4,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-        
+        <script src="../public/scripts/scrollFadeIn.js" defer></script>
+
         <link rel="icon" type="image/x-icon" href="../src/logo and icons/icon.ico">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
@@ -225,7 +226,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row mt-5">
+                                        <div class="row mt-10">
                                             <div class="flex col-lg mx-2">
                                                 <div class="row justify-content-center">
                                                     <div class="card-img-wrapper">
@@ -275,7 +276,7 @@
                                             <div class="col-6 p-5">
                                                 <div class="row align-middle justify-content-center">
                                                     <div class="position-relative mt-5">
-                                                        <div class="col position-absolute bottom-0 start-50 translate-middle">
+                                                        <div class="col position-absolute start-50 bottom-0 mb-5 pb-2 pb-lg-2 pb-xxl-0 mb-lg-4 mb-xxl-0 top-lg-50 translate-middle">
                                                             <h1 class="roadmaps text-uppercase">Activity</h1>
                                                         </div>  
                                                         <h2 class="mt-info-heading">Change the way you travel, <br>be closer to nature.</h4>
@@ -436,7 +437,5 @@
                 </div>
             </div>
         </footer>
-
-        <script src="../public/scripts/scrollFadeIn.js"></script>
     </body>
 </html>
