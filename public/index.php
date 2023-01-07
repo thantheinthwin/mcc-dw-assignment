@@ -68,10 +68,10 @@
                             <div class="col-10 text-center bg-white shadow">
                                 <div class="row mb-2">
                                     <div class="col mt-3">
-                                        <h1 class="">With GWSC</h1>
+                                        <h1 class="">Find yourself outside</h1>
                                         <div class="row justify-content-center">
                                             <div class="col-8">
-                                                <p class="lead fs-4 text">Escape from modern life and let's jump right into the most simple and peaceful way of living. Relieve your stress.</p>
+                                                <p class="lead fs-4 text">Discover and book tent camping, RV parks, cabins, treehouses, and glamping.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -138,9 +138,9 @@
                                         <!-- roadmap context -->
                                         <div class="row mt-3">
                                             <p class="text">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+                                                GWSC was first established in 1995 in order to protect the area around the Hlawga lake.
+                                                Here, you can observe the wildlife animals in their natural habitat closely.
+                                                You can create a recreation zone for the public and relax peacefully and the other purpose of this park is to spread awareness of environmental conservation.
                                             </p>
                                         </div>
 
@@ -197,45 +197,48 @@
                                             </div>
                                         </div>
 
-                                        <div class="row mt-10">
-                                            <div class="flex col-lg mx-2">
+                                        <div class="row mt-5">
+                                            <div class="position-relative mb-5">
+                                                <div class="position-absolute top-50 start-50 translate-middle min-vw-100">
+                                                    <h1 class="text-uppercase roadmaps mt-5">Ways to stay</h1>
+                                                </div>  
+                                                <h2 class="mt-info-heading">Choose how you want to relax</h4>
+                                            </div>
+                                            <div class="flex col-lg mx-3 card shadow">
                                                 <div class="row justify-content-center">
                                                     <div class="card-img-wrapper">
                                                         <img src="../src/images/camp 1.jpg" class="card-img-top">
                                                     </div>
                                                     <div class="mt-3">
                                                         <h3 class="">Camping are for tents</h3>
-                                                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+                                                        <p class="text">
+                                                            Pitch your tent and relax next to the fire.
                                                         </p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="flex col-lg mx-2">
+                                            <div class="flex col-lg mx-3 card shadow">
                                                 <div class="row justify-content-center">
                                                     <div class="card-img-wrapper">
                                                         <img src="../src/images/rv 1.jpg" class="card-img-top">
                                                     </div>
                                                     <div class="mt-3">
                                                         <h3 class="">Trailers and RV spots</h3>
-                                                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+                                                        <p class="text">
+                                                            Camp in style from the comfort of your vehicle.
                                                         </p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="flex col-lg mx-2">
+                                            <div class="flex col-lg mx-3 card shadow">
                                                 <div class="row justify-content-center">
                                                     <div class="card-img-wrapper">
                                                         <img src="../src/images/glamping 1.jpg" class="card-img-top">
                                                     </div>
                                                     <div class="mt-3">
                                                         <h3 class="">Cabins and glamping</h3>
-                                                        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+                                                        <p class="text">
+                                                            Find comfort and convenience with a cabin or lodge.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -256,9 +259,7 @@
                                                     <!-- roadmap context -->
                                                     <div class="row mt-3">
                                                         <p class="text">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+                                                            Forget how you lived your life normally.<br> Be more close to nature.<br> Be more adventurous.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -274,8 +275,8 @@
                                                         <div class="row text-start">
                                                             <h5>Trekking</h5>
                                                             <p class="text">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                                                Some clinically proven benefits of spending time in nature include; reduction in stress and blood pressure and improved sleep and energy levels. 
+                                                                In our increasingly fast paced society, reduction of stress and increased emotional well being is one of the most important health benefits of trekking!
                                                             </p>
                                                         </div>
                                                     </div>
@@ -288,8 +289,7 @@
                                                         <div class="row text-start">
                                                             <h5>Hiking</h5>
                                                             <p class="text">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                                            Hiking is proven to have many health benefits, ranging from physical exercise you get when out on the trail, to emotional or mental relief that comes from being in nature. 
                                                             </p>
                                                         </div>
                                                     </div>
@@ -302,8 +302,8 @@
                                                         <div class="row text-start">
                                                             <h5>Canoeing</h5>
                                                             <p class="text">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                                            There's nothing like exercise in the fresh air to make you feel good about yourself. From an epic adventure to a gentle paddle, 
+                                                            being outside and close to nature can lower your stress levels, help you sleep better and make you a happier person overall.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -316,8 +316,8 @@
                                                         <div class="row text-start">
                                                             <h5>Camping</h5>
                                                             <p class="text">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                                            Disconnect from technology and reconnect with nature. Revitalize your relationships with your families.
+                                                            Learn new skills. Reduce stress and increase physical fitness.
                                                             </p>
                                                         </div>
                                                     </div>

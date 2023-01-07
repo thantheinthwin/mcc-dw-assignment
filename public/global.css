@@ -93,6 +93,10 @@ p.text{
     .mt-info{
         margin-top: 12rem;
     }
+
+    .lg-border-end{
+        border-right:1px solid #dee2e6!important;
+    }
 }
 
 @media screen and (min-width: 1200px) {
