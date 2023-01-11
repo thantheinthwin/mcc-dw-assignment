@@ -44,7 +44,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Sign in</a>
+                            <a class="nav-link" aria-current="page" href="../public/contact.php">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../public/login.php">Log in</a>
                         </li>
                     </ul>
                     <form class="d-flex my-2 mx-lg-4" role="search">
