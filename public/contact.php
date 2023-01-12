@@ -9,8 +9,8 @@
         <script src="../public/scripts/activePage.js" defer></script>
 
         <link rel="icon" type="image/x-icon" href="../src/logo and icons/logo.svg">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../public/global.css">
     </head>
     <body>
@@ -24,8 +24,9 @@
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8509.275866238171!2d96.11219103169645!3d17.042732197144275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19976cf791c21%3A0xf840acae908abb4e!2sHlawga%20National%20Park%20Mode!5e0!3m2!1sen!2smm!4v1672126855008!5m2!1sen!2smm" width="100%" height="100%" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                         <div class="col-12 col-lg-6 p-5">
+                            <div class="row border-bottom pt-4"></div>
                             <h2 class="text-uppercase mt-3 font-weight-bold">Contact</h2>
-                            <form action="">
+                            <form method="POST">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
@@ -77,16 +78,7 @@
                                     <a href="#"><i class="fab fa-linkedin fa-3x mx-1 link-dark"></i></a>
                                 </div>
                             </div>
-                            <div class="row border-top pt-4">
-                                <div class="col-4">
-                                    <a href="#" class="text-decoration-none link-dark">Term of Use</a>
-                                    <span class="d-none d-lg-inline">|</span>
-                                    <a href="#" class="text-decoration-none link link-dark">Privacy Policy</a>
-                                </div>
-                                <div class="col text-end">
-                                    <span>&#169; <a href="#" class="text-decoration-none text-uppercase link-dark">Thant Hein Thwin</a>, All Rights Reserved</span>
-                                </div>
-                            </div>
+                            <div class="row border-top pt-4"></div>
                         </div>
                     </div>
                 </div>

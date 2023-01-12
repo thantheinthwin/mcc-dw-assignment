@@ -2,8 +2,27 @@ p.text{
     color: #7F8487;
 }
 
+.link-grey{
+    color: #7F8487;
+}
+
+.link-grey:hover{
+    color: black;
+}
+
+.text-between-line:before, .text-between-line:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #7F8487;
+    margin: auto;
+  }
+
 .bg-dirt{
     background-color: #F0EBCE;
+}
+
+.bg-green{
+    background-color: #002b04;
 }
 
 .carousel-item{
