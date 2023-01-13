@@ -16,42 +16,46 @@
     <body>
         <?php include('navbar.php'); ?>
 
-        <div class="container-fluid p-4 z-1 position-relative bg-dirt">
-            <div class="row justify-content-center p-2">
-                <div class="card col-6 col-lg-3 shadow p-5 m-5">
+        <div class="container-fluid p-5 z-1 position-relative bg-dirt">
+            <div class="row justify-content-center p-3">
+                <div class="card col-6 col-lg-5 col-xl-3 shadow p-5 m-5">
                     <div class="row text-center">
                         <h1 class="display-1">Log In</h1>
                         <h1 class="lead">Glad to see you !</h1>
                     </div>
-                    <div class="row justify-content-center">
-                        <div class="form-group col-10 my-3">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <div class="form-group col-10 my-3">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                        <div class="form-check col-8 my-3">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-success col-8 my-3 shadow">Login</button>
-                        <div class="col-8 d-flex justify-content-end my-3">
-                            <a href="" class="text-decoration-none link-grey">Forgot password?</a>
-                        </div> 
-                        <div class="text-between-line d-flex justify-content-center col-10 my-3">
-                            <div class="border p-2 rounded fs-5">OR</div>
-                        </div>
-                        <div class="d-flex justify-content-center my-3">
-                            <i class="fa-brands fa-google fs-2 link-grey mx-3"></i>
-                            <i class="fa-brands fa-facebook-f fs-2 link-grey mx-3"></i>
-                            <i class="fa-brands fa-linkedin-in fs-2 link-grey mx-3"></i>
-                        </div>
-                        <div class="col-8 my-3 d-flex justify-content-evenly">
-                            <div>Need an account?</div>
-                            <a href="../public/sign_up.php" class="link-grey">Sign Up</a>
-                        </div>
+                    <div class="row">
+                        <form method="post">
+                            <div class="form-group col my-3">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col my-3">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="form-check col my-3">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <div class="row justify-content-center">
+                                <button type="submit" class="btn btn-success col-6 my-3 shadow">Login</button>
+                            </div>
+                            <div class="col d-flex justify-content-end my-3">
+                                <a href="" class="text-decoration-none link-grey">Forgot password?</a>
+                            </div> 
+                            <div class="text-between-line d-flex justify-content-center col my-3">
+                                <div class="border p-2 rounded fs-5">OR</div>
+                            </div>
+                            <div class="d-flex justify-content-center my-3">
+                                <i class="fa-brands fa-google fs-2 link-grey mx-3"></i>
+                                <i class="fa-brands fa-facebook-f fs-2 link-grey mx-3"></i>
+                                <i class="fa-brands fa-linkedin-in fs-2 link-grey mx-3"></i>
+                            </div>
+                            <div class="col my-3 d-flex justify-content-evenly">
+                                <div>Need an account?</div>
+                                <a href="../public/sign_up.php" class="link-grey">Sign Up</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
