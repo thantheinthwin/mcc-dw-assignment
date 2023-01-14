@@ -58,11 +58,11 @@
                                     <div class="col-12 mb-3">
                                         <input type="password" class="form-control" id="password" placeholder="password" required>
                                     </div>
-                                    <div class="col-12 mb-3">
+                                    <div class="col-12 mb-3 form-group">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="date" placeholder="date">
+                                            <input type="text" class="form-control" id="date" placeholder="date" data-provide="datepicker">
                                             <label for="date" class="col-form-label">Date of birth</label>
-                                        </div>         
+                                        </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="row mb-3">
@@ -95,6 +95,14 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript">
+            $(function(){
+                $('.datepicker').datepicker({
+                    format: 'yyyy/mm/dd',
+                    startDate: '-3d'
+                });
+            });
+        </script>
 
         <?php include('footer.php'); ?>
     </body>
