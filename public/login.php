@@ -11,8 +11,70 @@
         <link rel="icon" type="image/x-icon" href="../src/logo and icons/logo.svg">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="../public/global.css">
+        <link rel="stylesheet" type="text/css" href="../public/css/global.css">
     </head>
+
+    <?php
+        session_start();
+        require_once 'config.php';
+        $emessage = "";
+
+        //lock timer
+        $timer = 600;
+
+        if(isset($_SESSION["locked"])){
+            $difference = time() - $_SESSION["locked"];
+            if($difference > $timer){
+                unset($_SESSION["locked"]);
+                unset($_SESSION["login_attempts"]);
+            }
+        }
+        
+        if(isset($_POST["login"])){
+            $email = trim($_POST["email"]);
+            $password = $_POST["password"];
+
+            $statement = mysqli_prepare($connection, "SELECT admin_id, password FROM admin WHERE admin_email = ?");
+            mysqli_stmt_bind_param($statement, "s", $email);
+            mysqli_stmt_execute($statement);
+            mysqli_stmt_bind_result($statement, $id, $pwd);
+            if(mysqli_stmt_fetch($statement)){
+                if(password_verify($password, $pwd)){
+                    $_SESSION["admin_id"] = $id;
+                    header("Location: ../public/contact.php");
+                }
+                else{
+                    $_SESSION["login_attempts"] += 1;
+                    $_SESSION["error"] = "Password does not match.";
+                }
+            }
+
+            else{
+                mysqli_stmt_close($statement);
+                $statement = mysqli_prepare($connection, "SELECT user_id, username, password FROM user WHERE email = ?");
+                mysqli_stmt_bind_param($statement, "s", $email);
+                mysqli_stmt_execute($statement);
+                mysqli_stmt_bind_result($statement, $id, $name, $pwd);
+
+                if(mysqli_stmt_fetch($statement)){
+                    if(password_verify($password, $pwd)){
+                        $_SESSION["user_id"] = $id;
+                        $_SESSION["username"] = $name;
+                        header("Location: ../public/information.php");
+                    }
+                    else{
+                        $_SESSION["login_attempts"] += 1;
+                        $_SESSION["error"] = "Password does not match";
+                    }
+                }
+                else{
+                    $_SESSION["login_attempts"] += 1;
+                    $_SESSION["error"] = "Username not found.";
+                }
+            }
+        }
+    ?>
+    
     <body>
         <?php include('navbar.php'); ?>
 
@@ -24,21 +86,30 @@
                         <h1 class="lead">Glad to see you !</h1>
                     </div>
                     <div class="row">
-                        <form method="post">
+                        <form method="POST">
                             <div class="form-group col my-3">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" value="" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter email">
                             </div>
                             <div class="form-group col my-3">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" value="" name="password" id="password" placeholder="Password" required maxlength="20">
                             </div>
                             <div class="form-check col my-3">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                <input type="checkbox" class="form-check-input" id="remember_me">
+                                <label class="form-check-label" for="remember_me">Remember me</label>
                             </div>
-                            <div class="row justify-content-center">
-                                <button type="submit" class="btn btn-success col-6 my-3 shadow">Login</button>
+                            <div class="row justify-content-center text-center">
+                                <?php if(isset($_SESSION["error"])) { ?>
+                                    <p class="text-danger my-3"><?= $_SESSION["error"]; ?></p>
+                                <?php unset($_SESSION["error"]); } ?>
+                                <?php 
+                                    if($_SESSION["login_attempts"] > 2) {
+                                        $_SESSION["locked"] = time();
+                                        echo '<p class="text-danger my-3"> Locked for 10 minutes </p>';
+                                    } else { ?>
+                                    <button type="submit" name="login" class="btn btn-success col-6 my-3 shadow">Login</button>
+                                <?php } ?>
                             </div>
                             <div class="col d-flex justify-content-end my-3">
                                 <a href="" class="text-decoration-none link-grey">Forgot password?</a>
