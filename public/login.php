@@ -69,7 +69,7 @@
                 }
                 else{
                     $_SESSION["login_attempts"] += 1;
-                    $_SESSION["error"] = "Username not found.";
+                    $_SESSION["error"] = "Email not found.";
                 }
             }
         }

@@ -89,12 +89,12 @@
                 <video src="../src/videos/camping 1.mp4" class="object-fit-cover col-8 mt-info" autoplay></video>
                 
                 <!-- facilities -->
-                <div class="row justify-content-center mt-info">
+                <div class="row justify-content-center align-top mt-info">
                     <div class="col-8 m-3">
                         <div class="row">
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
-                                    <div class="col-2 col-lg-3" id="svgs">
+                                    <div class="col-2 col-lg-4" id="svgs">
                                         <img src="../src/logo and icons/rv (2).svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
@@ -109,7 +109,7 @@
                             </div>
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
-                                    <div class="col-2 col-lg-3" id="svgs">
+                                    <div class="col-2 col-lg-4" id="svgs">
                                         <img src="../src/logo and icons/shower.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
@@ -124,7 +124,7 @@
                             </div>
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
-                                    <div class="col-2 col-lg-3" id="svgs">
+                                    <div class="col-2 col-lg-4" id="svgs">
                                         <img src="../src/logo and icons/electrical cabinet.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
@@ -139,7 +139,7 @@
                             </div>
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
-                                    <div class="col-2 col-lg-3" id="svgs">
+                                    <div class="col-2 col-lg-4" id="svgs">
                                         <img src="../src/logo and icons/parking.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
@@ -154,7 +154,7 @@
                             </div>
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
-                                    <div class="col-2 col-lg-3" id="svgs">
+                                    <div class="col-2 col-lg-4" id="svgs">
                                         <img src="../src/logo and icons/washing machine.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
@@ -169,7 +169,7 @@
                             </div>
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
-                                    <div class="col-2 col-lg-3" id="svgs">
+                                    <div class="col-2 col-lg-4" id="svgs">
                                         <img src="../src/logo and icons/wifi.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">

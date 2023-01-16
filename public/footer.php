@@ -11,13 +11,46 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../public/css/global.css">
     </head>
+    <?php 
+        require_once 'config.php';
+
+        //adding new visitor
+        $visitor_ip = $_SERVER["REMOTE_ADDR"];
+
+        //checking if the visitor is unique
+        $query = "SELECT * FROM visitor_count WHERE ip_address='$visitor_ip'";
+        $result = mysqli_query($connection, $query);
+
+        if(!$result){
+            die("Retriving Query Error>br>".$query);
+        }
+        $total_visitors = mysqli_num_rows($result);
+        if($total_visitors<1){
+            $query = "INSERT INTO visitor_count(ip_address) VALUES ('$visitor_ip')";
+            $result = mysqli_query($connection, $query);
+        }
+
+        //retriving existing visitors
+        $query = "SELECT * FROM visitor_count;";
+        $result = mysqli_query($connection, $query);
+
+        if(!$result){
+            die("Retriving Query Error<br>".$query);
+        }
+        $total_visitors = mysqli_num_rows($result);
+        $_SESSION["visitor"] = $total_visitors;
+    ?>
     <body>
         <!-- Footer -->
         <footer class="sticky-bottom z-0">
             <div class="container-fluid p-4 bg-green">
                 <!-- First row -->
-                <div class="row">
-
+                <div class="row text-light mb-5">
+                    <div class="col-4">
+                        <h1 class="display-4">Visitors :</h1>
+                        <p class="fs-1"><?= $_SESSION["visitor"] ?></p>
+                    </div>
+                    <div class="col-4"></div>
                 </div>
 
                 <!-- Second row -->
