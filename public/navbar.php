@@ -13,6 +13,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../public/css/global.css">
     </head>
+    <?php session_start(); ?>
     <body>
         <!-- Nav bar -->
         <nav class="navbar navbar-expand-lg bg-light sticky-top w-100 shadow">
@@ -47,7 +48,12 @@
                             <a class="nav-link" aria-current="page" href="../public/contact.php">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../public/login.php">Log in</a>
+                            <?php 
+                                if(!isset($_SESSION["admin_id"]) && !isset($_SESSION["user_id"])){
+                                    echo '<a class="nav-link" aria-current="page" href="../public/login.php">Log in</a>';
+                                }else{ ?>
+                                <a class="nav-link" aria-current="page" href="../public/logout.php">Log Out</a>
+                            <?php } ?>
                         </li>
                     </ul>
                     <form class="d-flex my-2 mx-lg-4" role="search">

@@ -89,7 +89,7 @@
                 <video src="../src/videos/camping 1.mp4" class="object-fit-cover col-8 mt-info" autoplay></video>
                 
                 <!-- facilities -->
-                <div class="row justify-content-center align-top mt-info">
+                <div class="row justify-content-center mt-info">
                     <div class="col-8 m-3">
                         <div class="row">
                             <div class="col-12 col-lg-4 p-4">

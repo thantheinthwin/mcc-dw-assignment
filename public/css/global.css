@@ -20,7 +20,7 @@ p.text{
     margin: auto;
   }
 
-.bg-dirt{
+.bg-dirt, .text-dirt{
     background-color: #F0EBCE;
 }
 

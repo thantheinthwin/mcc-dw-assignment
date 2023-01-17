@@ -14,69 +14,73 @@
         <link rel="stylesheet" type="text/css" href="../public/css/global.css">
     </head>
 
-    <?php
-        session_start();
-        require_once 'config.php';
-        $emessage = "";
-
-        //lock timer
-        $timer = 600;
-
-        if(isset($_SESSION["locked"])){
-            $difference = time() - $_SESSION["locked"];
-            if($difference > $timer){
-                unset($_SESSION["locked"]);
-                unset($_SESSION["login_attempts"]);
-            }
-        }
-        
-        if(isset($_POST["login"])){
-            $email = trim($_POST["email"]);
-            $password = $_POST["password"];
-
-            $statement = mysqli_prepare($connection, "SELECT admin_id, password FROM admin WHERE admin_email = ?");
-            mysqli_stmt_bind_param($statement, "s", $email);
-            mysqli_stmt_execute($statement);
-            mysqli_stmt_bind_result($statement, $id, $pwd);
-            if(mysqli_stmt_fetch($statement)){
-                if(password_verify($password, $pwd)){
-                    $_SESSION["admin_id"] = $id;
-                    header("Location: ../public/contact.php");
-                }
-                else{
-                    $_SESSION["login_attempts"] += 1;
-                    $_SESSION["error"] = "Password does not match.";
-                }
-            }
-
-            else{
-                mysqli_stmt_close($statement);
-                $statement = mysqli_prepare($connection, "SELECT user_id, username, password FROM user WHERE email = ?");
-                mysqli_stmt_bind_param($statement, "s", $email);
-                mysqli_stmt_execute($statement);
-                mysqli_stmt_bind_result($statement, $id, $name, $pwd);
-
-                if(mysqli_stmt_fetch($statement)){
-                    if(password_verify($password, $pwd)){
-                        $_SESSION["user_id"] = $id;
-                        $_SESSION["username"] = $name;
-                        header("Location: ../public/information.php");
-                    }
-                    else{
-                        $_SESSION["login_attempts"] += 1;
-                        $_SESSION["error"] = "Password does not match";
-                    }
-                }
-                else{
-                    $_SESSION["login_attempts"] += 1;
-                    $_SESSION["error"] = "Email not found.";
-                }
-            }
-        }
-    ?>
+    
     
     <body>
         <?php include('navbar.php'); ?>
+        
+        <?php
+            require_once 'config.php';
+            $emessage = "";
+            $_SESSION["login_attempts"] = 0;
+
+            //lock timer
+            $timer = 600;
+
+            if(isset($_SESSION["locked"])){
+                $difference = time() - $_SESSION["locked"];
+                if($difference > $timer){
+                    unset($_SESSION["locked"]);
+                    unset($_SESSION["login_attempts"]);
+                }
+            }
+            
+            if(isset($_POST["login"])){
+                $email = trim($_POST["email"]);
+                $password = $_POST["password"];
+
+                $statement = mysqli_prepare($connection, "SELECT admin_id, password FROM admin WHERE admin_email = ?");
+                mysqli_stmt_bind_param($statement, "s", $email);
+                mysqli_stmt_execute($statement);
+                mysqli_stmt_bind_result($statement, $id, $pwd);
+                if(mysqli_stmt_fetch($statement)){
+                    if(password_verify($password, $pwd)){
+                        $_SESSION["admin_id"] = $id;
+                        header("Location: ../public/contact.php");
+                    }
+                    else{
+                        $_SESSION["login_attempts"] += 1;
+                        $_SESSION["error"] = "Password does not match.";
+                    }
+                }
+
+                else{
+                    mysqli_stmt_close($statement);
+                    $statement = mysqli_prepare($connection, "SELECT user_id, username, password FROM user WHERE email = ?");
+                    mysqli_stmt_bind_param($statement, "s", $email);
+                    mysqli_stmt_execute($statement);
+                    mysqli_stmt_bind_result($statement, $id, $name, $pwd);
+
+                    if(mysqli_stmt_fetch($statement)){
+                        if(password_verify($password, $pwd)){
+                            $_SESSION["user_id"] = $id;
+                            $_SESSION["username"] = $name;
+                            echo "<script>";
+                            echo "window.location.href = '../public/information.php'";
+                            echo "</script>";
+                        }
+                        else{
+                            $_SESSION["login_attempts"] += 1;
+                            $_SESSION["error"] = "Password does not match";
+                        }
+                    }
+                    else{
+                        $_SESSION["login_attempts"] += 1;
+                        $_SESSION["error"] = "Email not found.";
+                    }
+                }
+            }
+        ?>
 
         <div class="container-fluid p-5 z-1 position-relative bg-dirt">
             <div class="row justify-content-center p-3">
