@@ -1,17 +1,43 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css");
 
-p.text{
-    color: #7F8487;
+::selection {
+    color: #E5D9B6;
+    background: #5F8D4E;
+  }
+
+div.promotion{
+    min-height: 30rem;
+}
+.header{
+    max-height: 30%;
 }
 
-.link-grey{
+.link-grey, p.text, span.text{
     color: #7F8487;
 }
 
 .link-grey:hover{
     color: black;
 }
+
+.btn-outline-success{
+    --bs-btn-color: black;
+    --bs-btn-border-color: black;
+    --bs-btn-hover-bg: #002b04;
+}
+
+.masthead {
+    height: 30vh;
+    min-height: 500px;
+  }
+
+.masthead.camping{
+    background-image: url('../../src/images/headers/camping.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
 
 .text-between-line:before, .text-between-line:after{
     content: "";
@@ -26,6 +52,10 @@ p.text{
 
 .bg-green{
     background-color: #002b04;
+}
+
+.bg-grey{
+    background-color: #ECF4F3;;
 }
 
 .carousel-item{
