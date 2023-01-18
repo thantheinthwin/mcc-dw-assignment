@@ -44,27 +44,15 @@
         <!-- Footer -->
         <footer class="sticky-bottom z-0">
             <div class="container-fluid p-4 bg-green">
-                <!-- First row -->
-                <div class="row text-dark mb-5">
-                    <div class="col">
-                        <div class="card shadow w-50 p-4">
-                            <h1 class="font-weight-bold">Visitors :</h1>
-                            <p class="font-weight-bold fs-1"><?= $_SESSION["visitor"] ?></p>
-                        </div>
-                    </div>
-                    <div class="col d-flex justify-content-end">
-                        <div class="card shadow w-50 p-4">
-
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Second row -->
                 <div class="row text-light">
                     <div class="col-6 col-lg">
                         <h3 class="display-5">Contact</h3>
                         <span>Email us :&nbsp<a href="" class="link-light text-decoration-none">hlawgarnationalpark@info.com</a></span><br>
-                        <span>Phone no :&nbsp<a href="tel:+" class="link-light text-decoration-none">(+95) 926498657</a></span>
+                        <span>Phone no :&nbsp<a href="tel:+" class="link-light text-decoration-none">(+95) 926498657</a></span><br>
+                        <div class="card shadow w-50 text-dark text-center p-2 mt-2">
+                            <p class="fw-bold fs-3"><span>Visitors :</span><?= $_SESSION["visitor"] ?></p>
+                        </div>
                     </div>
                     <div class="col-6 pt-4">
                         <form action="">

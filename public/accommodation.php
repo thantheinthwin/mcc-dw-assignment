@@ -17,13 +17,13 @@
                 </div>
             </header>
 
-            <div class="row position-relative text-center justify-content-center">
+            <div class="row position-relative text-center justify-content-center pb-5">
                 <!-- roadmap -->
                 <div class="position-relative">
                     <div class="col position-absolute top-50 start-50 translate-middle">
                         <h1 class="text-uppercase roadmaps">Welcome</h1>
                     </div>  
-                    <h2 class="mt-info-heading">Welcome to <br> Global Wild Camping and Swimming</h4>
+                    <h2 class="mt-info-heading">Welcome to <br> Global Wild Camping and Swimming</h2>
                 </div>
 
                 <!-- roadmap context -->
@@ -82,6 +82,120 @@
                                 <button type="button" class="btn btn-outline-success position-absolute bottom-0 start-50 translate-middle">Success</button>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center justify-content-center mt-5 p-5">
+                <h1 class="mt-info-heading">Campground price list</h1>
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="align-top">PRICE LIST<br><p class="lead fs-6">Year 2022</p></th>
+                                    <th class="align-top">LOW SEASON<br><p class="lead fs-6">1.4 - 15.6 and 5.9 - 31.10</p></th>
+                                    <th class="align-top">HIGH SEASON<br><p class="lead fs-6">15.6 - 5.9</p></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="lead fs-5">
+                                    <td>Zone A, per person</td>
+                                    <td>$15.00</td>
+                                    <td>$17.00</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Zone B, per person</td>
+                                    <td>$10.00</td>
+                                    <td>$13.00</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Child (6-12 years)</td>
+                                    <td>$7.00</td>
+                                    <td>$9.00</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Infants (0-5 years)</td>
+                                    <td>Gratis</td>
+                                    <td>Gratis</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Pet</td>
+                                    <td>Free</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Electricity</td>
+                                    <td>$4.00</td>
+                                    <td>$4.00</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Internet connection</td>
+                                    <td>Free</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Vehicle on the plot</td>
+                                    <td>$13.00</td>
+                                    <td>$13.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-6">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="align-top">PRICE LIST<br><p class="lead fs-6">Year 2021</p></th>
+                                    <th class="align-top">LOW SEASON<br><p class="lead fs-6">1.4 - 15.6 and 5.9 - 31.10</p></th>
+                                    <th class="align-top">HIGH SEASON<br><p class="lead fs-6">15.6 - 5.9</p></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="lead fs-5">
+                                    <td>Zone A, per person</td>
+                                    <td>$12.00</td>
+                                    <td>$14.00</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Zone B, per person</td>
+                                    <td>$7.00</td>
+                                    <td>$10.00</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Child (6-12 years)</td>
+                                    <td>$5.00</td>
+                                    <td>$7.00</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Infants (0-5 years)</td>
+                                    <td>Gratis</td>
+                                    <td>Gratis</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Pet</td>
+                                    <td>Free</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Electricity</td>
+                                    <td>$3.50</td>
+                                    <td>$3.50</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Internet connection</td>
+                                    <td>Free</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr class="lead fs-5">
+                                    <td>Vehicle on the plot</td>
+                                    <td>$11.50</td>
+                                    <td>$11.50</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
