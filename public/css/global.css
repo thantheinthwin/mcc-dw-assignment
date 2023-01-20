@@ -9,6 +9,7 @@
 div.promotion{
     min-height: 30rem;
 }
+
 .header{
     max-height: 30%;
 }
@@ -29,13 +30,26 @@ div.promotion{
 
 .masthead {
     height: 30vh;
-    min-height: 500px;
   }
 
 .masthead.camping{
     background-image: url('../../src/images/headers/camping.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+} 
+
+.masthead.swimming{
+    background-image: url('../../src/images/headers/swimming.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+.masthead.rvrental{
+    background-image: url('../../src/images/headers/rv.jpg');
+    background-size: cover;
+    background-position: right 50% bottom 20%;
     background-repeat: no-repeat;
 } 
 
@@ -56,6 +70,11 @@ div.promotion{
 
 .bg-grey{
     background-color: #ECF4F3;;
+}
+
+.bullets{
+    height: 2rem;
+    width: 2rem;
 }
 
 .carousel-item{

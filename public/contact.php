@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Global Wild Swimming and Camping</title>
-        <link rel="icon" type="image/x-icon" href="../src/logo and icons/logo.svg"> 
+        <link rel="icon" type="image/x-icon" href="../src/logo_and_icons/logo.svg"> 
     </head>
     <body>
         <?php include('navbar.php'); ?>

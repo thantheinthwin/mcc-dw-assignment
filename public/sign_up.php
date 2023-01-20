@@ -5,7 +5,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <link rel="icon" type="image/x-icon" href="../src/logo and icons/logo.svg">
+        <link rel="icon" type="image/x-icon" href="../src/logo_and_icons/logo.svg">
     </head>
 
     <?php  
@@ -71,7 +71,7 @@
                 <div class="card col-6 col-lg-5 col-xl-3 shadow p-5 m-5">
                     <div class="d-flex justify-content-center">
                         <div class="col-3">
-                            <img src="../src/logo and icons/logo.svg" class="img-fluid">
+                            <img src="../src/logo_and_icons/logo.svg" class="img-fluid">
                         </div>
                     </div>
                     <div class="row text-center mb-5">

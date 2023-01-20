@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Global Wild Swimming and Camping</title>
-        <link rel="icon" type="image/x-icon" href="../src/logo and icons/logo.svg">
+        <link rel="icon" type="image/x-icon" href="../src/logo_and_icons/logo.svg">
     </head>
     <body>
         <!-- navbar -->
@@ -73,7 +73,7 @@
                                     <div class="col">
                                         <div class="row justify-content-center">
                                             <div class="col-6 mb-2" id="svgs">
-                                                <img src="../src/logo and icons/tent.svg" class="img-fluid">
+                                                <img src="../src/logo_and_icons/tent.svg" class="img-fluid">
                                             </div>
                                             <div class="lead">
                                                 Camping
@@ -83,7 +83,7 @@
                                     <div class="col">
                                         <div class="row justify-content-center">
                                             <div class="col-6 mb-2" id="svgs">
-                                                <img src="../src/logo and icons/fishing.svg" class="img-fluid">
+                                                <img src="../src/logo_and_icons/fishing.svg" class="img-fluid">
                                             </div>
                                             <div class="lead">
                                                 Fishing
@@ -93,7 +93,7 @@
                                     <div class="col">
                                         <div class="row justify-content-center">
                                             <div class="col-6 mb-2" id="svgs">
-                                                <img src="../src/logo and icons/lake.svg" class="img-fluid">
+                                                <img src="../src/logo_and_icons/lake.svg" class="img-fluid">
                                             </div>
                                             <div class="lead">
                                                 Swimming
@@ -103,7 +103,7 @@
                                     <div class="col">
                                         <div class="row justify-content-center">
                                             <div class="col-6 mb-2" id="svgs">
-                                                <img src="../src/logo and icons/forest.svg" class="img-fluid">
+                                                <img src="../src/logo_and_icons/forest.svg" class="img-fluid">
                                             </div>
                                             <div class="lead">
                                                 Explore
@@ -147,7 +147,7 @@
                                                     <div class="col-lg col-4 border-end mt-3">
                                                         <div class="row justify-content-center mb-2" id="svgs">
                                                             <div class="col-8">
-                                                                <img src="../src/logo and icons/trailer.svg" class="img-fluid">
+                                                                <img src="../src/logo_and_icons/trailer.svg" class="img-fluid">
                                                             </div>
                                                         </div>
                                                         <span class="text-uppercase">30 camper sites</span>
@@ -155,7 +155,7 @@
                                                     <div class="col-lg col-4 border-end mt-3">
                                                         <div class="row justify-content-center mb-2" id="svgs">
                                                             <div class="col-8">
-                                                                <img src="../src/logo and icons/rv.svg" class="img-fluid">
+                                                                <img src="../src/logo_and_icons/rv.svg" class="img-fluid">
                                                             </div>
                                                         </div>
                                                         <span class="text-uppercase">25 caravan sites*</span>
@@ -163,7 +163,7 @@
                                                     <div class="col-lg col-4 lg-border-end mt-3">
                                                         <div class="row justify-content-center mb-2" id="svgs">
                                                             <div class="col-8">
-                                                                <img src="../src/logo and icons/tent (2).svg" class="img-fluid">
+                                                                <img src="../src/logo_and_icons/tent (2).svg" class="img-fluid">
                                                             </div>
                                                         </div>
                                                         <span class="text-uppercase">50 tent sites</span>
@@ -171,7 +171,7 @@
                                                     <div class="col-lg col-4 border-end mt-3">
                                                         <div class="row justify-content-center mb-2" id="svgs">
                                                             <div class="col-8">
-                                                                <img src="../src/logo and icons/glamp.svg" class="img-fluid">
+                                                                <img src="../src/logo_and_icons/glamp.svg" class="img-fluid">
                                                             </div>
                                                         </div>
                                                         <span class="text-uppercase">10 glamp sites*</span>
@@ -179,7 +179,7 @@
                                                     <div class="col-lg col-4 mt-3">
                                                         <div class="row justify-content-center mb-2" id="svgs">
                                                             <div class="col-8">
-                                                                <img src="../src/logo and icons/cabin.svg" class="img-fluid">
+                                                                <img src="../src/logo_and_icons/cabin.svg" class="img-fluid">
                                                             </div>
                                                         </div>
                                                         <span class="text-uppercase">10 cabin sites</span>
@@ -260,7 +260,7 @@
                                                     <div class="col-6">
                                                         <div class="row mb-3">
                                                             <div class="col-6" id="svgs">
-                                                                <img src="../src/logo and icons/badges/trekking.svg" class="img-fluid">
+                                                                <img src="../src/logo_and_icons/badges/trekking.svg" class="img-fluid">
                                                             </div>
                                                         </div>
                                                         <div class="row text-start">
@@ -274,7 +274,7 @@
                                                     <div class="col-6">
                                                         <div class="row mb-3">
                                                             <div class="col-6" id="svgs">
-                                                                <img src="../src/logo and icons/badges/hiking.svg" class="img-fluid">
+                                                                <img src="../src/logo_and_icons/badges/hiking.svg" class="img-fluid">
                                                             </div>
                                                         </div>
                                                         <div class="row text-start">
@@ -287,7 +287,7 @@
                                                     <div class="col-6">
                                                         <div class="row mb-3">
                                                             <div class="col-6" id="svgs">
-                                                                <img src="../src/logo and icons/badges/canoeing.svg" class="img-fluid">
+                                                                <img src="../src/logo_and_icons/badges/canoeing.svg" class="img-fluid">
                                                             </div>
                                                         </div>
                                                         <div class="row text-start">
@@ -301,7 +301,7 @@
                                                     <div class="col-6">
                                                         <div class="row mb-3">
                                                             <div class="col-6" id="svgs">
-                                                                <img src="../src/logo and icons/badges/camping.svg" class="img-fluid">
+                                                                <img src="../src/logo_and_icons/badges/camping.svg" class="img-fluid">
                                                             </div>
                                                         </div>
                                                         <div class="row text-start">

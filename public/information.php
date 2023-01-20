@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Global Wild Swimming and Camping</title>
-        <link rel="icon" type="image/x-icon" href="../src/logo and icons/logo.svg">
+        <link rel="icon" type="image/x-icon" href="../src/logo_and_icons/logo.svg">
     </head>
     <body>
         <!-- navbar -->
@@ -36,7 +36,7 @@
                             <div class="col-lg col-12 lg-border-end mt-3">
                                 <div class="row justify-content-center mb-2" id="svgs">
                                     <div class="col-5 col-lg-8">
-                                        <img src="../src/logo and icons/trailer.svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/trailer.svg" class="img-fluid">
                                     </div>
                                 </div>
                                 <span class="text-uppercase">30 camper sites</span>
@@ -44,7 +44,7 @@
                             <div class="col-lg col-12 lg-border-end mt-3">
                                 <div class="row justify-content-center mb-2" id="svgs">
                                     <div class="col-5 col-lg-8">
-                                        <img src="../src/logo and icons/rv.svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/rv.svg" class="img-fluid">
                                     </div>
                                 </div>
                                 <span class="text-uppercase">25 caravan sites*</span>
@@ -52,7 +52,7 @@
                             <div class="col-lg col-12 lg-border-end mt-3">
                                 <div class="row justify-content-center mb-2" id="svgs">
                                     <div class="col-5 col-lg-8">
-                                        <img src="../src/logo and icons/tent (2).svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/tent (2).svg" class="img-fluid">
                                     </div>
                                 </div>
                                 <span class="text-uppercase">50 tent sites</span>
@@ -60,7 +60,7 @@
                             <div class="col-lg col-12 lg-border-end mt-3">
                                 <div class="row justify-content-center mb-2" id="svgs">
                                     <div class="col-5 col-lg-8">
-                                        <img src="../src/logo and icons/glamp.svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/glamp.svg" class="img-fluid">
                                     </div>
                                 </div>
                                 <span class="text-uppercase">10 glamp sites*</span>
@@ -68,7 +68,7 @@
                             <div class="col-lg col-12 mt-3">
                                 <div class="row justify-content-center mb-2" id="svgs">
                                     <div class="col-5 col-lg-8">
-                                        <img src="../src/logo and icons/cabin.svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/cabin.svg" class="img-fluid">
                                     </div>
                                 </div>
                                 <span class="text-uppercase">10 cabin sites</span>
@@ -89,7 +89,7 @@
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
                                     <div class="col-2 col-lg-4" id="svgs">
-                                        <img src="../src/logo and icons/rv (2).svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/rv (2).svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
                                         <h3 class="text-start">Renting RV</h3>
@@ -104,7 +104,7 @@
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
                                     <div class="col-2 col-lg-4" id="svgs">
-                                        <img src="../src/logo and icons/shower.svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/shower.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
                                         <h3 class="text-start">Sanitary Facilities</h3>
@@ -119,7 +119,7 @@
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
                                     <div class="col-2 col-lg-4" id="svgs">
-                                        <img src="../src/logo and icons/electrical cabinet.svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/electrical cabinet.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
                                         <h3 class="text-start">Electrical Cabinet</h3>
@@ -134,7 +134,7 @@
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
                                     <div class="col-2 col-lg-4" id="svgs">
-                                        <img src="../src/logo and icons/parking.svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/parking.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
                                         <h3 class="text-start">Parking</h3>
@@ -149,7 +149,7 @@
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
                                     <div class="col-2 col-lg-4" id="svgs">
-                                        <img src="../src/logo and icons/washing machine.svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/washing machine.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
                                         <h3 class="text-start">Washing Machines</h3>
@@ -164,7 +164,7 @@
                             <div class="col-12 col-lg-4 p-4">
                                 <div class="row mb-3 align-items-end">
                                     <div class="col-2 col-lg-4" id="svgs">
-                                        <img src="../src/logo and icons/wifi.svg" class="img-fluid">
+                                        <img src="../src/logo_and_icons/wifi.svg" class="img-fluid">
                                     </div>
                                     <div class="col p-0">
                                         <h3 class="text-start">Internet</h3>
