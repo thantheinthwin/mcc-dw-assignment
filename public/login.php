@@ -37,7 +37,9 @@
                 if(mysqli_stmt_fetch($statement)){
                     if(password_verify($password, $pwd)){
                         $_SESSION["admin_id"] = $id;
-                        header("Location: ../public/contact.php");
+                        echo "<script>";
+                        echo "window.location.href = '../public/information.php'";
+                        echo "</script>";
                     }
                     else{
                         $_SESSION["login_attempts"] += 1;

@@ -4,8 +4,8 @@
         <link rel="icon" type="image/x-icon" href="../src/logo and icons/logo.svg">
     </head>
     <body>
-        <?php include('check.php'); ?>
         <?php include('navbar.php'); ?>
+        <?php include('check.php'); ?>
 
         <div class="z-1 position-relative bg-light overflow-hidden">
             <header class="masthead camping">

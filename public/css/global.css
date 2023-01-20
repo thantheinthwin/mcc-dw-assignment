@@ -83,6 +83,7 @@ div.promotion{
 
 .card-img-wrapper{
     overflow: hidden;
+    max-height: 20rem;
 }
 
 .card-img-top{

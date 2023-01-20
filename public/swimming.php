@@ -4,10 +4,9 @@
         <link rel="icon" type="image/x-icon" href="../src/logo_and_icons/logo.svg">
     </head>
     <body>
-        <?php include('check.php');?>
-
         <?php include('navbar.php'); ?>
-
+        <?php include('check.php');?>
+        
         <div class="container-fluid p-4 z-1 position-relative bg-light">
             <header class="masthead swimming">
                 <div class="container h-100">
