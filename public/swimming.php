@@ -52,6 +52,65 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="position-absolute end-0 top-0 mx-5 my-5 bg-grey z-2 p-3">
+                    <div class="d-grid p-1 p-lg-3 p-xl-5">
+                        <h3 class="my-3">Seasonal Pricing</h3>
+                        <p class="lead fs-5 my-4">
+                            Thu, 01 Apr 2021 - Sat, 15 May 2021<br>
+                            <span class="fw-bold fs-6">Low rate $10</span>
+                        </p>
+                        <p class="lead fs-5 my-4">
+                            Sat, 15 May 2021 - Sat, 31 Jul 2021<br>
+                            <span class="fw-bold fs-6">Low rate $20</span>
+                        </p>
+                        <p class="lead fs-5 my-4">
+                            TSat, 31 Jul 2021 - Wed, 15 Sep 2021<br>
+                            <span class="fw-bold fs-6">Low rate $8</span>
+                        </p>
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-outline-success btn-block">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                </div>
+            </div>
+            <div class="px-3 position-relative">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-8 col-lg-12">
+                        <div class="col-lg-8 border-bottom p-3">
+                            <h1>Swimming spots</h1>
+                            <span class="lead fs-4">Zone B | Waterfall</span>
+                            <p class="my-2 fs-5">Diving? Go for it!</p>
+                        </div>
+                        <div class="col-lg-8 p-3 border-bottom">
+                            <h2 class="my-2">Amenities</h2>
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <h4 class="text-uppercase my-4">bathroom</h4>
+                                    <ul class="list-unstyled fs-5 mt-3">
+                                        <li><img src="../src/logo_and_icons/bullets/toilet-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Private Toilet</li>
+                                        <li><img src="../src/logo_and_icons/bullets/shower-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Shower</li>
+                                        <li><img src="../src/logo_and_icons/bullets/sink-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Bathroom sink</li>
+                                        <li><img src="../src/logo_and_icons/bullets/towel-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Bathroom linen</li>
+                                        <li><img src="../src/logo_and_icons/bullets/hairdryer-hair-salon-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Hair dryer</li>
+                                        <li><img src="../src/logo_and_icons/bullets/shampoo-hair-style-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Essentials</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <h4 class="text-uppercase my-4">Outdoor Equipment</h4>
+                                    <ul class="list-unstyled fs-5 mt-3">
+                                        <li><img src="../src/logo_and_icons/bullets/beach-umbrella-sun-weather-travel-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Sunshade</li>
+                                        <li><img src="../src/logo_and_icons/bullets/garden-table-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Garden table & chairs</li>
+                                        <li><img src="../src/logo_and_icons/bullets/beach-seat-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Sunlounger</li>
+                                        <li><img src="../src/logo_and_icons/bullets/barbecue-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Barbeque equipment</li>
+                                        <li><img src="../src/logo_and_icons/bullets/axe-wood-construction-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Tools available</li>
+                                        <li><img src="../src/logo_and_icons/bullets/bicycle-3-svgrepo-com.svg" class="bullets me-2 opacity-75 my-2">Bicycle on request</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                         <div class="p-3 border-bottom">
                             <h2 class="my-2">Campsite rules</h2>
                             <div class="row">
@@ -72,19 +131,19 @@
                     </div>
                 </div>
                 <div class="position-absolute end-0 top-0 mx-5 my-5 bg-grey z-2 p-3">
-                    <div class="d-grid p-5">
+                    <div class="d-grid p-1 p-lg-3 p-xl-5">
                         <h3 class="my-3">Seasonal Pricing</h3>
                         <p class="lead fs-5 my-4">
                             Thu, 01 Apr 2021 - Sat, 15 May 2021<br>
-                            <span class="fw-bold fs-6">Low rate $10</span>
+                            <span class="fw-bold fs-6">Low rate $13</span>
                         </p>
                         <p class="lead fs-5 my-4">
                             Sat, 15 May 2021 - Sat, 31 Jul 2021<br>
-                            <span class="fw-bold fs-6">Low rate $20</span>
+                            <span class="fw-bold fs-6">Low rate $25</span>
                         </p>
                         <p class="lead fs-5 my-4">
                             TSat, 31 Jul 2021 - Wed, 15 Sep 2021<br>
-                            <span class="fw-bold fs-6">Low rate $8</span>
+                            <span class="fw-bold fs-6">Low rate $14</span>
                         </p>
                         <div class="d-grid">
                             <button type="button" class="btn btn-outline-success btn-block">Book Now</button>
