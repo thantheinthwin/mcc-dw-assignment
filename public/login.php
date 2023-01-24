@@ -38,7 +38,7 @@
                     if(password_verify($password, $pwd)){
                         $_SESSION["admin_id"] = $id;
                         echo "<script>";
-                        echo "window.location.href = '../public/home.php'";
+                        echo "window.location.href = '../public/index.php'";
                         echo "</script>";
                     }
                     else{

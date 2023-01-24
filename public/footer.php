@@ -97,7 +97,7 @@
                     <hr>
                     <div class="col">
                         <a href="#" class="text-decoration-none link-light">Term of Use</a>
-                        <span class="d-none d-lg-inline text-light">|</span>
+                        <span class="text-light">|</span>
                         <a href="#" class="text-decoration-none link-light link">Privacy Policy</a>
                     </div>
                     <div class="col text-end">
