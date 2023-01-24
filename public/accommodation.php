@@ -1,4 +1,4 @@
-<html>
+Book Now<html>
     <head>
         <title>Global Wild Swimming and Camping</title>
         <link rel="icon" type="image/x-icon" href="../src/logo and icons/logo.svg">
@@ -53,7 +53,7 @@
                                     -Free cancellation<br>
                                     -Camping equipments.
                                 </p>
-                                <button type="button" class="btn btn-outline-success position-absolute bottom-0 start-50 translate-middle">Success</button>
+                                <button type="button" class="btn btn-outline-success position-absolute bottom-0 start-50 translate-middle">Book Now</button>
                             </div>
                         </div>
                         <div class="col-7 col-lg-4 p-2 promotion">
@@ -67,7 +67,7 @@
                                     -Breakfast included.<br>    
                                     -Free cancellation
                                 </p>
-                                <button type="button" class="btn btn-outline-success position-absolute bottom-0 start-50 translate-middle">Success</button>
+                                <button type="button" class="btn btn-outline-success position-absolute bottom-0 start-50 translate-middle">Book Now</button>
                             </div>
                         </div>
                         <div class="col-7 col-lg-4 p-2 promotion">
@@ -80,7 +80,7 @@
                                     -Early booking.<br>    
                                     -Free cancellation
                                 </p>
-                                <button type="button" class="btn btn-outline-success position-absolute bottom-0 start-50 translate-middle">Success</button>
+                                <button type="button" class="btn btn-outline-success position-absolute bottom-0 start-50 translate-middle">Book Now</button>
                             </div>
                         </div>
                     </div>
