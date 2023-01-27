@@ -319,6 +319,43 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="row mt-info">
+                            <h1 class="text-uppercase roadmaps mb-3">Location</h1>
+                            <div class="col card p-0 map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8509.275866238171!2d96.11219103169645!3d17.042732197144275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19976cf791c21%3A0xf840acae908abb4e!2sHlawga%20National%20Park%20Mode!5e0!3m2!1sen!2smm!4v1672126855008!5m2!1sen!2smm" width="100%" height="100%" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="row mt-info mb-5">
+                            <div class="position-relative mt-5">
+                                <div class="col position-absolute start-50 bottom-0 mb-lg-4 pb-lg-2 mb-xxl-0 pb-xxl-0 translate-middle">
+                                    <h1 class="roadmaps text-uppercase">Review</h1>
+                                </div> 
+                            </div>
+                            <div class="d-flex bg-grey overflow-auto py-5">
+                                <div class="col-3 card p-3 mx-2">
+                                    <h3 class="">Steven</h3>
+                                    <p class="lead fs-5">A fun place to go !</p>
+                                </div>
+                                <div class="col-3 card p-3 mx-2">
+                                    <h3 class="">Bob</h3>
+                                    <p class="lead fs-5">Quiet, peaceful and fun.</p>
+                                </div>
+                                <div class="col-3 card p-3 mx-2">
+                                    <h3 class="">Alice</h3>
+                                    <p class="lead fs-5">The only place where we can breath fresh air in this big city.</p>
+                                </div>
+                                <div class="col-3 card p-3 mx-2">
+                                    <h3 class="">Gwen</h3>
+                                    <p class="lead fs-5">Conoeing is my favourite !</p>
+                                </div>
+                                <div class="col-3 card p-3 mx-2">
+                                    <h3 class="">Jack</h3>
+                                    <p class="lead fs-5">The park is clean and the facilities are great.</p>
+                                </div>
+                            </div> 
+                        </div>
                     </div>
                 </div>
             </div>

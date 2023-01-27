@@ -80,7 +80,7 @@
                 <video src="../src/videos/camping 1.mp4" class="object-fit-cover col-8 mt-info" autoplay></video>
                 
                 <!-- facilities -->
-                <div class="row justify-content-center mt-info">
+                <div class="row justify-content-center mt-info mb-5">
                     <div class="col-8 m-3">
                         <div class="row mb-3">
                             <h1 class="roadmaps">Facilities</h1>
@@ -175,6 +175,58 @@
                                         Multiple wifi rounters are installed through out the national park with high speed internet.
                                     </p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Location Map -->
+                <div class="row mt-info px-5">
+                    <h1 class="text-uppercase roadmaps mb-5">Location</h1>
+                    <div class="col card p-0 map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8509.275866238171!2d96.11219103169645!3d17.042732197144275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19976cf791c21%3A0xf840acae908abb4e!2sHlawga%20National%20Park%20Mode!5e0!3m2!1sen!2smm!4v1672126855008!5m2!1sen!2smm" width="100%" height="100%" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <!-- Local attraction -->
+                <div class="row mt-info px-5 mb-5">
+                    <h1 class="text-uppercase roadmaps mb-5">Local Attractions</h1>
+                    <div class="flex col-lg mx-3 card shadow">
+                        <div class="row justify-content-center">
+                            <div class="card-img-wrapper">
+                                <img src="../src/images/local_attractions/hippo.jpg" class="card-img-top">
+                            </div>
+                            <div class="mt-3">
+                                <h3 class="">Hippo Lake</h3>
+                                <p class="text lead">
+                                    Hippos !
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex col-lg mx-3 card shadow">
+                        <div class="row justify-content-center">
+                            <div class="card-img-wrapper">
+                                <img src="../src/images/local_attractions/safari.jpg" class="card-img-top">
+                            </div>
+                            <div class="mt-3">
+                                <h3 class="">Safari</h3>
+                                <p class="text lead">
+                                    In to the wild !
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex col-lg mx-3 card shadow">
+                        <div class="row justify-content-center">
+                            <div class="card-img-wrapper">
+                                <img src="../src/images/local_attractions/pagoda.jpg" class="card-img-top">
+                            </div>
+                            <div class="mt-3">
+                                <h3 class="">Japan Pagoda</h3>
+                                <p class="text lead">
+                                    Peaceful !
+                                </p>
                             </div>
                         </div>
                     </div>
