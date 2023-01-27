@@ -328,31 +328,62 @@
                         </div>
 
                         <div class="row mt-info mb-5">
-                            <div class="position-relative mt-5">
-                                <div class="col position-absolute start-50 bottom-0 mb-lg-4 pb-lg-2 mb-xxl-0 pb-xxl-0 translate-middle">
-                                    <h1 class="roadmaps text-uppercase">Review</h1>
-                                </div> 
-                            </div>
+                            <h1 class="roadmaps text-uppercase mb-3">Review</h1>
                             <div class="d-flex bg-grey overflow-auto py-5">
-                                <div class="col-3 card p-3 mx-2">
-                                    <h3 class="">Steven</h3>
-                                    <p class="lead fs-5">A fun place to go !</p>
+                                <div class="col-5 col-lg-3 card p-3 mx-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="../src/images/profile.jpg" class="img-thumbnail">
+                                        </div>
+                                        <div class="col">
+                                            <h3 class="">Steven</h3>
+                                            <p class="lead fs-5">A fun place to go !</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-3 card p-3 mx-2">
-                                    <h3 class="">Bob</h3>
-                                    <p class="lead fs-5">Quiet, peaceful and fun.</p>
+                                <div class="col-5 col-lg-3 card p-3 mx-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="../src/images/profile.jpg" class="img-thumbnail">
+                                        </div>
+                                        <div class="col">
+                                            <h3 class="">Bob</h3>
+                                            <p class="lead fs-5">Quiet, peaceful and fun.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-3 card p-3 mx-2">
-                                    <h3 class="">Alice</h3>
-                                    <p class="lead fs-5">The only place where we can breath fresh air in this big city.</p>
+                                <div class="col-5 col-lg-3 card p-3 mx-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="../src/images/profile.jpg" class="img-thumbnail">
+                                        </div>
+                                        <div class="col">
+                                            <h3 class="">Alice</h3>
+                                            <p class="lead fs-5">The only place where we can breath fresh air in this big city.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-3 card p-3 mx-2">
-                                    <h3 class="">Gwen</h3>
-                                    <p class="lead fs-5">Conoeing is my favourite !</p>
+                                <div class="col-5 col-lg-3 card p-3 mx-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="../src/images/profile.jpg" class="img-thumbnail">
+                                        </div>
+                                        <div class="col">
+                                            <h3 class="">Gwen</h3>
+                                            <p class="lead fs-5">Conoeing is my favourite !</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-3 card p-3 mx-2">
-                                    <h3 class="">Jack</h3>
-                                    <p class="lead fs-5">The park is clean and the facilities are great.</p>
+                                <div class="col-5 col-lg-3 card p-3 mx-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="../src/images/profile.jpg" class="img-thumbnail">
+                                        </div>
+                                        <div class="col">
+                                            <h3 class="">Jack</h3>
+                                            <p class="lead fs-5">The park is clean and the facilities are great.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div> 
                         </div>
